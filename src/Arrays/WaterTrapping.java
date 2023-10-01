@@ -18,17 +18,9 @@ public class WaterTrapping {
     public static int GetTrappedWater(int[] arr)
     {
         //Assuming the width of each bar is 1 unit.
-        //int area = 0;
-        for(int i=0;i<arr.length;i++)
-        {
-            if(arr[i]<arr[i+1])
-            {
-                //area =
-                
-            }
-        }
-
-        return 0;
+        int trappedwater = 0;
+        //int leftMax = arr[0];
+        return trappedwater;
     }
     
 }
